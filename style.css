@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.navbar{
+    display:flex;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 20px;
+}
+
+.navbar .links{
+    display: flex;
+    border: 2px solid black;
+    gap: 50px;
+
+}
+
+.navbar .links h2{
+    cursor: pointer;
+}
+
+.navbar .side-btn button{
+    padding: 12px 10px;
+    font-size: 18px;
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.hero .left-area{
+    border: 2px solid red;
+    width: 60%;
+    padding: 50px 30px;
+}
+
+.hero .left-area h1{
+    margin-bottom: 20px;
+}
+
+.hero .left-area p{
+    font-size: 20px;
+}
+
+.hero .right-area{
+    border: 2px solid black;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    font-size: 50px;
+}
+
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 30px;
+    gap: 20px;
+    border: 2px solid red;
+}
+
+.hero2 h1{
+    font-size: 45px;
+}
+
+.hero2 p{
+    font-size: 22px;
+}
+
+.Info{
+    display: flex;
+    border: 2px solid black;
+}
+
+.Info .Benefits{
+    height: 800px;
+    border: 2px solid red;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Info .Specifications{
+    height: 800px;
+    border: 2px solid red;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UseSection{
+    display: flex;
+    border: 2px solid red;
+    padding: 40px 30px;
+}
+
+.useHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.useHead h1{
+    font-size: 35px;
+}
+
+.UseSection .left{
+    width: 60%;
+}
+
+.UseSection .right{
+    width: 40%;
+}
+.UseSection .right h1{
+    font-size: 30px;
+    cursor: pointer;
+}
+.UseSection .right button{
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+
+.Footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
